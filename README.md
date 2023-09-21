@@ -1,15 +1,15 @@
 # FarmVille
 
-###Açıklama
+### Açıklama
 AspNetCore 6.0 ile hazırlanmış MongoDb veritabanı kullanılan dinamik bir mini web sitesi projesi.
 
-###Kullanılan Teknolojiler
+### Kullanılan Teknolojiler
 - MVC 6.0
 - .Net Core
 - MongoDB
 - Html Css Bootstrap
 
-###Projeden Görseller
+### Projeden Görseller
 
 ------------
 
