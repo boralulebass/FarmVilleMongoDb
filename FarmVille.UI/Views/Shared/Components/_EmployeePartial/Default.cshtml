@@ -1,0 +1,25 @@
+﻿@using FarmVille.UI.Dtos.Employee;
+@model List<ResultEmployeeDto>
+
+@foreach ( var item in Model)
+{
+    <div class="col-md-3 col-6 mt-5">
+        <div class="team-grids text-center">
+            <img src="~@item.Address" class="img-fluid" alt="">
+            <div class="team-info">
+                <div class="caption">
+                    <div class="social-icons-section text-center">
+                        <a class="fac" href="@item.SocialMedia1">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="twitter" href="@item.SocialMedia2">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4>@item.Name @item.Title</h4>
+        <h6>@item.City</h6>
+    </div>
+}

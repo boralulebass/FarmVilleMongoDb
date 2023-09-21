@@ -1,0 +1,43 @@
+﻿@using FarmVille.UI.Dtos.Testimonial;
+@model ResultTestimonialDto
+
+<!--/testimonials-->
+<section class="w3l-testimonials" id="testimonials">
+    <!-- /grids -->
+    <div class="cusrtomer-layout py-5">
+        <div class="container py-lg-4 py-md-3 py-2 pb-lg-0">
+            <h5 class="title-subw3hny text-center mb-1">Mutlu Müşteriler</h5>
+            <h3 class="title-w3l two text-center mb-sm-5 mb-4">Geri Dönüşler</h3>
+            <!-- /grids -->
+            <div class="testimonial-width">
+                <div id="owl-demo1" class="owl-two owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <div class="testimonial">
+                                <i class="fas fa-quote-right"></i>
+                                <blockquote>
+                                    <q>
+                                       @Model.ClientTestimonial
+                                    </q>
+                                </blockquote>
+                                <div class="testi-des">
+                                    <div class="test-img">
+                                        <img src="~/Agrowfarm-Starter/assets/images/team1.jpg" class="img-fluid" alt="client-img">
+                                    </div>
+                                    <div class="peopl align-self">
+                                        <h3>@Model.ClientName</h3>
+                                        <p class="indentity">@Model.ClientCity</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /grids -->
+    </div>
+    <!-- //grids -->
+</section>
+<!-- //testimonials -->

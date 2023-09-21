@@ -1,0 +1,48 @@
+﻿@using FarmVille.UI.Dtos.AboutUs;
+@model ResultAboutUsDto
+
+<section class="w3l-blog-se-3 py-5" id="ab-grids">
+    <div class="container">
+        <div class="inner-sec-w3ls py-lg-5 py-md-4 py-2">
+            <!--/services-grids-->
+            <div class="row blog-sec">
+                <div class="col-lg-4 manager-img mb-lg-0 mb-md-5 mb-4 pe-lg-5">
+                    <h6 class="title-subw3hny">@Model.SubTitle</h6>
+                    <h3 class="title-w3l">@Model.Title</h3>
+                    <p class="card-text mt-3">
+                       @Model.Description
+                    </p>
+                    <a href="tel:+212 873 4747" class="btn btn-style btn-primary mt-lg-5 mt-4"><span class="fas fa-phone-alt" aria-hidden="true"></span> +212 873 4747</a>
+
+
+                </div>
+                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left">
+                    <div class="card img">
+                        <div class="card-body img">
+                            <a href="#" class="d-block zoom radius-image"><img src="~/Agrowfarm-Starter/assets/images/a2.jpg" alt="" class="img-fluid radius-image"></a>
+                            <div class="blog-des mt-4">
+                                <h5 class="card-title mt-4">@Model.ImageTitle</h5>
+                                <p class="card-text">
+                                    @Model.ImageDescription
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 about-in blog-grid-info text-left mt-md-0 mt-5">
+                    <div class="card img">
+                        <div class="card-body img">
+                            <a href="#" class="d-block zoom radius-image"><img src="~/Agrowfarm-Starter/assets/images/a3.jpg" alt="" class="img-fluid radius-image"></a>
+                            <div class="blog-des mt-3">
+                                <h5 class="card-title mt-4">@Model.ImageTitle2</h5>
+                                <p class="card-text">
+                                    @Model.ImageDescription2
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

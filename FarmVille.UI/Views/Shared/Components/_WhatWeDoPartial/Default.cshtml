@@ -1,0 +1,50 @@
+﻿@using FarmVille.UI.Dtos.Home;
+@model ResultHomeDto 
+
+<!--/w3l-grids-3hny-->
+<section class="w3l-grids-3hny py-5" id="grids1">
+    <div class="container py-lg-5 py-md-3">
+        <div class="wthree-header-section text-center">
+            <h6 class="title-subw3hny">@Model.SubTitle</h6>
+            <h3 class="title-w3l mb-4">@Model.Title</h3>
+        </div>
+        <div class="grids-of-3 row text-center">
+            <div class="col-lg-4 col-md-6 mt-5">
+                <div class="grids3-info">
+                    <a href="#service" class="d-block zoom"><img src="~/Agrowfarm-Starter/assets/images/a4.jpg" alt="" class="img-fluid radius-image"></a>
+                    <div class="grids-of-3-saas-info">
+                        <h5><a href="#service" class="title">@Model.ImageTitle</a></h5>
+                        <p class="saas-para">
+                            @Model.ImageDescription
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5">
+                <div class="grids3-info">
+                    <a href="#service" class="d-block zoom"><img src="~/Agrowfarm-Starter/assets/images/a5.jpg" alt="" class="img-fluid radius-image"></a>
+                    <div class="grids-of-3-saas-info">
+                        <h5><a href="#service" class="title">@Model.ImageTitle2</a></h5>
+                        <p class="saas-para">
+                            @Model.ImageDescription2
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5">
+                <div class="grids3-info">
+                    <a href="#service" class="d-block zoom"><img src="~/Agrowfarm-Starter/assets/images/a6.jpg" alt="" class="img-fluid radius-image"></a>
+                    <div class="grids-of-3-saas-info">
+                        <h5><a href="#service" class="title">@Model.ImageTitle3</a></h5>
+                        <p class="saas-para">
+                            @Model.ImageDescription3
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--//w3l-grids-3hny-->

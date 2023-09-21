@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmVille.UI", "FarmVille.UI\FarmVille.UI.csproj", "{F10E1418-715B-4C7C-B4C3-7695801C66B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F10E1418-715B-4C7C-B4C3-7695801C66B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10E1418-715B-4C7C-B4C3-7695801C66B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10E1418-715B-4C7C-B4C3-7695801C66B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10E1418-715B-4C7C-B4C3-7695801C66B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38CC0750-4FE0-4563-9666-E53B6FF5A3AC}
+	EndGlobalSection
+EndGlobal

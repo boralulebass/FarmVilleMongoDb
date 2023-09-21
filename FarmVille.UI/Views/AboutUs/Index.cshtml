@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--/inner-page-->
+<div class="inner-banner py-5">
+    <section class="w3l-breadcrumb text-left py-sm-5 ">
+        <div class="container">
+            <div class="w3breadcrumb-gids">
+                <div class="w3breadcrumb-left text-left">
+                    <h2 class="inner-w3-title">
+                        Hakkımızda
+                    </h2>
+                    <p class="inner-page-para mt-2">
+                        Daha İyi Bir Gelecek İçin Daha İyi Tarım
+                    </p>
+                </div>
+                <div class="w3breadcrumb-right">
+                    <ul class="breadcrumbs-custom-path">
+                        <li><a href="~/Home/Index">Ana Sayfa</a></li>
+                        <li class="active"><span class="fas fa-angle-double-right mx-2"></span> Hakkımızda</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+<!--//inner-page-->
+
+@await Component.InvokeAsync("_AboutPagePartial")
+
+
+@await Component.InvokeAsync("_AboutWhyUsPartial")
+
+<section class="w3l-team py-5" id="w3l-team">
+    <div class="container py-md-5">
+        <div class="row text-left">
+
+            @await Component.InvokeAsync("_AboutEmployeePartial")
+
+            @await Component.InvokeAsync("_EmployeePartial")
+            
+        </div>
+
+    </div>
+</section>
+
+
+
+
